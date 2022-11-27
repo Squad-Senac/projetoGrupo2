@@ -1,0 +1,49 @@
+﻿ 
+     ВНИМАНИЕ!!! Если по каким-то причинам брэндмауэр блокирует программу, добавьте в исключения файл
+                 C:\Program Files (x86)\Avira\VPN\OpenVpn\phantomvpn.exe
+
+     ВНИМАНИЕ!!! Работу скрипта для обнуления счётчика трафика может блокировать Avira Antivirus
+
+	Особенности репака:
+
+  1. Pro версия (патч pawel97 / lrepacks)
+  2. Возможность обнуления счётчика трафика при достижении лимита*
+  3. Мультиязычный интерфейс (включая русский)
+  4. Отключена телеметрия (сбор пользовательских данных)
+  5. Заблокировано самообновление программы
+  6. Некоторые правки в интерфейсе (lrepacks)
+
+   *Обнуление счётчика трафика выполняется AutoIt скриптом доступным из меню Пуск (Avira\Сброс счётчика трафика)
+    или непосредственно из основного окна программы (после клика на ссылке, нажимать "Выполнить").
+
+
+    "Тихая" установка с ключами /SILENT или /VERYSILENT (или файлом "Silent Install.cmd")
+
+ ******************************************************************************************************************
+
+     ATTENTION!!! If for some reason the firewall blocks a program add in exceptions
+                  C:\Program Files (x86)\Avira\VPN\OpenVpn\phantomvpn.exe
+
+     ATTENTION!!! Reset traffic counter script can be blocked Avira Antivirus
+
+	Features repack:
+
+  1. Pro version (patch pawel97 / lrepacks)
+  2. The ability to reset the traffic counter when the traffic limit is reached*
+  3. Multilingual interface**
+  4. Telemetry is disabled (collection of user data)
+  5. Blocked self-renewal
+  6. Some changes in the interface (lrepacks)
+
+   *Resetting the traffic counter (AutoIt script) available from the Start menu (Avira\Reset traffic counter)
+    or directly from the main window (after the click on the link press "Run").
+
+ **To set a language other than English, you need:
+   - close the program from the tray (if running)
+   - open in Notepad the Avira.WebAppHost.exe.config file (usually it's C:\Program Files (x86)\Avira\VPN) 
+   - find the line <value>en-US</value> in it
+   - replace en-US with the desired language from the following:
+     de-DE / es-ES / fr-FR / it-IT / ja-JP / nl-NL / pt-BR / tr-TR / zh-CN / zh-TW
+
+
+   For the "silent" unpacking of the portable version, the additional key /PORTABLE=1 (or the file "Unpack Portable.cmd")
