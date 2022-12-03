@@ -4,17 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de equipe</title>
-    <link rel="stylesheet" href="./style/equipe.css">
 
-    <!--font-awesome -->
+   <!--font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <!--Bootstrap 4-->
+   <!--Bootstrap 4-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/equipe.css">
+    <title>Barra de navegação</title>
 </head>
-
+<!--Barra de navegação-->
 <body style="background: black;">
+    <nav class=" navbar fixed-top" style="z-index: 999;">
+        <img class="logo" src="./contents/logo.png">
+
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x" onclick="menuActive()"></i>
+            
+        </div>
+
+        <ul>
+            <li> <a href="#" class="active"> Home </a> </li>
+            <li> <a href="#">Sobre</a> </li>
+            <li> <a href="#">Serviços</a> </li>
+            <li> <a href="#">Galeria</a> </li>
+            <li> <a href="#">Preços</a> </li>
+        </ul>
+    </nav>
+    <script src="./scripts/equipe.js"></script>
+    <!--Barra de navegação acaba aqui-->
+    <br><br><br>
+
+    <!--Página de equipe-->
     <div class="container">
         <div class="row">
              <!--Squad-->
@@ -103,5 +125,6 @@
         </div>   
     </div>
 </div>
+
 </body>
 </html>
