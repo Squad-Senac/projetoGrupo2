@@ -1,0 +1,17 @@
+body{
+    background-image: url(back.png);
+    background-size: 120% fixed;
+}
+.content{
+    text-align: center;
+}
+
+.esqueci{
+    text-decoration: none;
+    color: rosybrown;
+    margin-left: 130px;
+}
+
+.logo-login{
+    width:20px;
+}
