@@ -136,6 +136,11 @@ html{
 .container{
     background: #000000;
 }
+h1{
+    text-align: center;
+    color:#17bebb;
+    padding: 10px;
+}
  
 .our-team{
     border-radius: 15px;
