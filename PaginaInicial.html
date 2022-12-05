@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" conteudo="IE=edge">
+    <meta name="viewport" conteudo="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/PaginaInicial.css">
+    <link rel="stylesheet" href="style/Slider.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <title>LibrePress</title>
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav>
+        <img class="logo" src= "contents/image.png">
+
+        <div class="menu-btn">
+          <i class="fa fa-bars fa-2x" onclick="menuActive()"></i>
+      </div>
+
+      <ul>
+          <li> <a href="#" class="active"> Home </a> </li>
+          <li> <a href="#">Sobre</a> </li>
+          <li> <a href="#">Serviços</a> </li>
+          <li> <a href="#">Galeria</a> </li>
+          <li> <a href="#">Preços</a> </li>
+        </ul>
+    </nav>
+    <!--------------------------------------------------------------------------------------------->
+    
+    <!-- Video de Background + Texto de Apresentação -->
+    <div id="apresentação">
+        <video id="videoBG" src="contents/DesignSemNome.mp4" muted loop autoplay>  
+        </video>
+        <div id="textoApresentação">
+                <h1>titulo</h1>
+                <p>A facilidade de construir qualquer site na palma das suas mãos.
+                    conheça nossos planos e deixe a criatividade fluir.
+                </p>
+                <a href="#carroselDeApresentação"><button id="btnApresentação">QUERO</button></a>
+        </div>
+    </div>
+
+    <!--------------------------------------------------------------------------------------------->
+
+    <!-- Carrosel de Cards sobre a empresa -->
+    <div class="conteudo-geral js-conteudo-geral">
+        <div class="componente-interno-geral">
+          <div class="componente">
+            <div class="componente-sem-rolagem">
+              <div class="componente-interno">
+                <div class="componente-fundo-imagem"></div>
+                <div class="componente-visual-inicial">
+                  <h2 class="componente-titulo">Sobre nós</h2>
+                </div>
+                <div class="componente-content">
+                  <div class="componente-text">Sobre</div>
+                  <div class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo ad quasi, reiciendis quidem, quod quo perspiciatis unde veniam fugit provident voluptas necessitatibus maiores praesentium dicta architecto. Obcaecati perspiciatis praesentium omnis.</div>
+                  <div class="componente-botao-fechar"></div>
+                </div>
+              </div>
+            </div>
+            <div class="componente-index">
+              <div class="componente-index-back">1</div>
+              <div class="componente-index-front">
+                <div class="componente-index-overlay" data-index="1">1</div>
+              </div>
+            </div>
+          </div>
+          <div class="componente">
+            <div class="componente-sem-rolagem">
+              <div class="componente-interno">
+                <div class="componente-fundo-imagem"></div>
+                <div class="componente-visual-inicial">
+                  <h2 id="N2" class="componente-titulo">Programação</h2>
+                </div>
+                <div class="componente-content">
+                  <div class="componente-text">Programação</div>
+                  <div class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo ad quasi, reiciendis quidem, quod quo perspiciatis unde veniam fugit provident voluptas necessitatibus maiores praesentium dicta architecto. Obcaecati perspiciatis praesentium omnis.</div>
+                  <div class="componente-botao-fechar"></div>
+                </div>
+              </div>
+            </div>
+            <div class="componente-index">
+              <div class="componente-index-back">2</div>
+              <div class="componente-index-front">
+                <div class="componente-index-overlay" data-index="2">2</div>
+              </div>
+            </div>
+          </div>
+          <div class="componente">
+            <div class="componente-sem-rolagem">
+              <div class="componente-interno">
+                <div class="componente-fundo-imagem"></div>
+                <div class="componente-visual-inicial">
+                  <h2 class="componente-titulo">Css</h2>
+                </div>
+                <div class="componente-content">
+                  <div class="componente-text">Css</div>
+                  <div class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo ad quasi, reiciendis quidem, quod quo perspiciatis unde veniam fugit provident voluptas necessitatibus maiores praesentium dicta architecto. Obcaecati perspiciatis praesentium omnis.</div>
+                  <div class="componente-botao-fechar"></div>
+                </div>
+              </div>
+            </div>
+            <div class="componente-index">
+              <div class="componente-index-back">3</div>
+              <div class="componente-index-front">
+                <div class="componente-index-overlay" data-index="3">3</div>
+              </div>
+            </div>
+          </div>
+          <div class="componente">
+            <div class="componente-sem-rolagem">
+              <div class="componente-interno">
+                <div class="componente-fundo-imagem"></div>
+                <div class="componente-visual-inicial">
+                  <h2 class="componente-titulo">Javascript</h2>
+                </div>
+                <div class="componente-content">
+                  <div class="componente-text">Javascript</div>
+                  <div class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo ad quasi, reiciendis quidem, quod quo perspiciatis unde veniam fugit provident voluptas necessitatibus maiores praesentium dicta architecto. Obcaecati perspiciatis praesentium omnis.</div>
+                  <div class="componente-botao-fechar"></div>
+                </div>
+              </div>
+            </div>
+            <div class="componente-index">
+              <div class="componente-index-back">4</div>
+              <div class="componente-index-front">
+                <div class="componente-index-overlay" data-index="4">4</div>
+              </div>
+            </div>
+          </div>
+          <div class="componente">
+            <div class="componente-sem-rolagem">
+              <div class="componente-interno">
+                <div class="componente-fundo-imagem"></div>
+                <div class="componente-visual-inicial">
+                  <h2 class="componente-titulo">Em breve..</h2>
+                </div>
+                <div class="componente-content">
+                  <div class="componente-text">Em breve..</div>
+                  <div class="componente-botao-fechar"></div>
+                </div>
+              </div>
+            </div>
+            <div class="componente-index">
+              <div class="componente-index-back">5</div>
+              <div class="componente-index-front">
+                <div class="componente-index-overlay" data-index="5">5</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--------------------------------------------------------------------------------------------->
+
+    <!-- Pacotes de venda -->
+    <h1 id="pacotesTitulo">Nossos Pacotes</h1>
+    <div class="pacotes">
+        <div class="cards">
+            <div class="face face1">
+                <div class="conteudo">
+                    <img src="contents/basico.png">
+                    <h3>Básico</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="conteudo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="face face1">
+                <div class="conteudo">
+                    <img src="contents/premium.png">
+                    <h3>Premium</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="conteudo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="face face1">
+                <div class="conteudo">
+                    <img id="imgEmp" src="contents/empresarial.png">
+                    <h3>Empresarial</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="conteudo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------------------------------------->
+
+    <!--Footer-->
+    <footer id="footer">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-6">
+                 <div class="row">
+                    <div class="col-md-6 ">
+                       <div class="logo-part">
+                          <h2>LIBREPRESS</h2>
+                          <p>R. Dona Isabel, 700 - Bonsucesso, Rio de Janeiro - RJ, 21032-060</p>
+                          <p></p>
+                       </div>
+                    </div>
+                    <div class="col-md-6 px-4">
+                       <h6> Sobre a LibrePress</h6>
+                       <p>Visando a facilidade, criatividade e o aprendizado simplificado, a LibrePress tem como objetivo que qualquer pessoa entenda a lógica do desenvolvimento de um site </p>
+                       <a href="#" class="btn-footer"> Mais informações </a><br>
+                       <a href="#" class="btn-footer"> Contato </a>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-6">
+                 <div class="row">
+                    <div class="col-md-6 px-4">
+                       <h6> Suporte</h6>
+                       <div class="row">
+                          <div class="col-md-6">
+                             <ul>
+                                <li> <a href="#"> Início</a> </li>
+                                <li> <a href="#"> Pacotes</a> </li>
+                                <li> <a href="#"> Nossa equipe</a> </li>
+                                <li> <a href="#"> Perguntas</a> </li>
+                                <li> <a href="#"> Termos e Condições</a> </li>
+                             </ul>
+                          </div>
+                          <div class="col-md-6 px-4">
+                             <ul>
+                                <li> <a href="#"> Rembolso</a> </li>
+                                <li> <a href="#"> Privacidade</a> </li>
+                                <li> <a href="#"> Cookies </a> </li>
+                                <li> <a href="#"> Perguntas</a> </li>
+                             </ul>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="col-md-6 ">
+                       <div class="social">
+                          <a href=""><img class="media" width="40px" height="40px" src="contents/Media/facebook-f.svg" alt=""></a>
+                          <a href=""><img class="media" width="40px" height="40px" src="contents/Media/instagram.svg" alt=""></a>
+                          <a href=""><img class="media" width="40px" height="40px" src="contents/Media/linkedin.svg" alt=""></a>
+                          <a href=""><img class="media" width="40px" height="40px" src="contents/Media/twitter.svg" alt=""></a>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+    </footer>
+
+    <!--------------------------------------------------------------------------------------------->
+
+    <script src="scripts/slider.js"></script>
+    <script src="./scripts/main.js"></script>
+
+
+</body>
+</html>
