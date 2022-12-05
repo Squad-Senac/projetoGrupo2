@@ -9,9 +9,9 @@ e por meio das cordenadas e estilização a aplicação gera um codigo em html e
 
 Aqui estão as tecnologias usadas nesse projeto
 
-*Html5
-*Css3
-*javaScript
+* Html5
+* Css3
+* javaScript
 
 ## Serviços utilizados
 
