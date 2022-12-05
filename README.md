@@ -1,10 +1,8 @@
-![Logo do Projeto](https://github.com/Squad-Senac/projetoGrupo2/blob/main/contents/image.png)
-
 
 ## Paintech
 
 Uma aplicação que funciona como uma extensão para o seu visual studio code em que você faz desenho
-e por meio das cordenadas e estilização a aplçicação gera um codigo em html e css.
+e por meio das cordenadas e estilização a aplicação gera um codigo em html e css.
 
 
 ## Tecnologias utilizadas
