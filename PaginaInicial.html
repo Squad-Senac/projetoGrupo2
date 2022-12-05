@@ -16,13 +16,18 @@
 
     <!-- Barra de Navegação -->
     <nav>
-        <img class="logo" src= "logo.png">
-        <ul>
-            <li> <a href="#" class="active"> Home </a> </li>
-            <li> <a href="#">Sobre</a> </li>
-            <li> <a href="#">Serviços</a> </li>
-            <li> <a href="#">Galeria</a> </li>
-            <li> <a href="#">Preços</a> </li>
+        <img class="logo" src= "contents/image.png">
+
+        <div class="menu-btn">
+          <i class="fa fa-bars fa-2x" onclick="menuActive()"></i>
+      </div>
+
+      <ul>
+          <li> <a href="#" class="active"> Home </a> </li>
+          <li> <a href="#">Sobre</a> </li>
+          <li> <a href="#">Serviços</a> </li>
+          <li> <a href="#">Galeria</a> </li>
+          <li> <a href="#">Preços</a> </li>
         </ul>
     </nav>
     <!--------------------------------------------------------------------------------------------->
@@ -50,11 +55,11 @@
               <div class="componente-interno">
                 <div class="componente-fundo-imagem"></div>
                 <div class="componente-visual-inicial">
-                  <h2 class="componente-titulo">HTML</h2>
+                  <h2 class="componente-titulo">Sobre nós</h2>
                 </div>
                 <div class="componente-content">
-                  <div class="componente-text">HTML</div>
-                  <div class="texto">aaaaaaaaa</div>
+                  <div class="componente-text">Sobre</div>
+                  <div class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo ad quasi, reiciendis quidem, quod quo perspiciatis unde veniam fugit provident voluptas necessitatibus maiores praesentium dicta architecto. Obcaecati perspiciatis praesentium omnis.</div>
                   <div class="componente-botao-fechar"></div>
                 </div>
               </div>
@@ -71,10 +76,11 @@
               <div class="componente-interno">
                 <div class="componente-fundo-imagem"></div>
                 <div class="componente-visual-inicial">
-                  <h2 class="componente-titulo">CSS</h2>
+                  <h2 id="N2" class="componente-titulo">Programação</h2>
                 </div>
                 <div class="componente-content">
-                  <div class="componente-text">CSS</div>
+                  <div class="componente-text">Programação</div>
+                  <div class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo ad quasi, reiciendis quidem, quod quo perspiciatis unde veniam fugit provident voluptas necessitatibus maiores praesentium dicta architecto. Obcaecati perspiciatis praesentium omnis.</div>
                   <div class="componente-botao-fechar"></div>
                 </div>
               </div>
@@ -91,10 +97,11 @@
               <div class="componente-interno">
                 <div class="componente-fundo-imagem"></div>
                 <div class="componente-visual-inicial">
-                  <h2 class="componente-titulo">Javascript</h2>
+                  <h2 class="componente-titulo">Css</h2>
                 </div>
                 <div class="componente-content">
-                  <div class="componente-text">Javascript</div>
+                  <div class="componente-text">Css</div>
+                  <div class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo ad quasi, reiciendis quidem, quod quo perspiciatis unde veniam fugit provident voluptas necessitatibus maiores praesentium dicta architecto. Obcaecati perspiciatis praesentium omnis.</div>
                   <div class="componente-botao-fechar"></div>
                 </div>
               </div>
@@ -111,10 +118,11 @@
               <div class="componente-interno">
                 <div class="componente-fundo-imagem"></div>
                 <div class="componente-visual-inicial">
-                  <h2 class="componente-titulo">GIT</h2>
+                  <h2 class="componente-titulo">Javascript</h2>
                 </div>
                 <div class="componente-content">
-                  <div class="componente-text">GIT</div>
+                  <div class="componente-text">Javascript</div>
+                  <div class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo ad quasi, reiciendis quidem, quod quo perspiciatis unde veniam fugit provident voluptas necessitatibus maiores praesentium dicta architecto. Obcaecati perspiciatis praesentium omnis.</div>
                   <div class="componente-botao-fechar"></div>
                 </div>
               </div>
@@ -131,10 +139,10 @@
               <div class="componente-interno">
                 <div class="componente-fundo-imagem"></div>
                 <div class="componente-visual-inicial">
-                  <h2 class="componente-titulo">React</h2>
+                  <h2 class="componente-titulo">Em breve..</h2>
                 </div>
                 <div class="componente-content">
-                  <div class="componente-text">React</div>
+                  <div class="componente-text">Em breve..</div>
                   <div class="componente-botao-fechar"></div>
                 </div>
               </div>
@@ -157,8 +165,8 @@
         <div class="cards">
             <div class="face face1">
                 <div class="conteudo">
-                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true">
-                    <h3>Design</h3>
+                    <img src="contents/basico.png">
+                    <h3>Básico</h3>
                 </div>
             </div>
             <div class="face face2">
@@ -171,8 +179,8 @@
         <div class="cards">
             <div class="face face1">
                 <div class="conteudo">
-                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true">
-                    <h3>Code</h3>
+                    <img src="contents/premium.png">
+                    <h3>Premium</h3>
                 </div>
             </div>
             <div class="face face2">
@@ -185,8 +193,8 @@
         <div class="cards">
             <div class="face face1">
                 <div class="conteudo">
-                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true">
-                    <h3>Launch</h3>
+                    <img id="imgEmp" src="contents/empresarial.png">
+                    <h3>Empresarial</h3>
                 </div>
             </div>
             <div class="face face2">
@@ -260,7 +268,8 @@
 
     <!--------------------------------------------------------------------------------------------->
 
-    <script src="script/slider.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="./scripts/main.js"></script>
 
 
 </body>

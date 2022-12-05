@@ -240,6 +240,11 @@ body {
   top: 0;
   width: 100%;
 }
+
+#N2{
+  color: black;
+  margin-left: 5px;
+}
 .componente-index-back {
   color: #2f3840;
   opacity: 0;
@@ -308,7 +313,7 @@ body {
 }
 .componente:nth-child(2) .componente-fundo-imagem:before {
   transition-delay: 0.1s;
-  background-image: url("../includes/ic-css.jpg");
+  background-image: url("../contents/326cb2b62a6392aad9dd031c992dc2c9.gif");
 }
 .componente:nth-child(3) {
   transform: translate3d(210.4166666667%, 0, 0);
@@ -325,7 +330,7 @@ body {
 }
 .componente:nth-child(3) .componente-fundo-imagem:before {
   transition-delay: 0.2s;
-  background-image: url("../includes/ic-javascript.jpg");
+  background-image: url("../contents/ic-css.jpg");
 }
 .componente:nth-child(4) {
   transform: translate3d(315.625%, 0, 0);
@@ -342,7 +347,7 @@ body {
 }
 .componente:nth-child(4) .componente-fundo-imagem:before {
   transition-delay: 0.3s;
-  background-image: url("../includes/ic-git.jpg");
+  background-image: url("../contents/ic-javascript.jpg");
 }
 .componente:nth-child(5) {
   transform: translate3d(420.8333333333%, 0, 0);
@@ -359,7 +364,7 @@ body {
 }
 .componente:nth-child(5) .componente-fundo-imagem:before {
   transition-delay: 0.4s;
-  background-image: url("../includes/ic-react.jpg");
+  background-image: url("../contents/construtechs\ -\ startups\ da\ construo\ civil.jpg");
 }
 .componente:hover .componente-fundo-imagem:after {
   opacity: 0;
