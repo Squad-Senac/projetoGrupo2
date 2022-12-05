@@ -1,0 +1,269 @@
+* {
+  font-family: roboto;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  background-color: #000000f6;
+  justify-content: space-evenly;
+  margin-top: 20vh;
+  margin-left: 10vh;
+}
+
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+
+nav .logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover{
+  background-color: darkorange;
+}
+
+nav .menu-btn i{
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+.srch{
+  width: 200px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid darkorange;
+  margin: -4px;
+  color: white;
+  border-right: none;
+  font-size: 16px;
+  padding: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+
+}
+
+.btn-search{
+  width: 70px;
+  height: 30px;
+  background: darkorange;
+  border: 2px solid darkorange;
+  margin-top: 1px;
+  color: white;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  
+
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+@media (max-width: 920px) {
+  nav .menu-btn i{
+      display: block;
+  }
+  nav ul{
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background-color: darkred;
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+  }
+  nav ul.open{
+      left: 0;
+  }
+  nav ul li{
+      width: 100%;
+      margin: 50px 0;
+  }
+  nav ul li a{
+      font-size: 23px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+  background: none;
+  color: darkorange;
+  }
+  
+}
+/*Barra de navegação acaba aqui*/
+
+/*AQUI COMEÇA OS FLIPS DE PRODUTO*/
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 120%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  color: white;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 16px;
+}
+.pcadastro{
+  margin-left: 5vh;
+}
+
+.buttoncadastra{
+  margin-top: 2vh;
+}
+.flip-card-front {
+  background-image: linear-gradient(45deg, #6806538e, #6806538e);
+}
+.flip-card-front img {
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  
+}
+.flip-card-back {
+  background-image: linear-gradient(315deg, #df11117a, #df11117a);
+  color: #ffffff;
+  transform: rotateY(180deg);
+}
+.flip-card-back img {
+  width: 140px;
+}
+.flip-card-back h3 {
+  margin-bottom: 0.3rem;
+  text-decoration: line-through;
+}
+.flip-card-back h2 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.listcard{
+  list-style: none;
+  text-align: left;
+  line-height: 25px;
+}
+
+.aside{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 8%;
+}
+
+.h1fliptop{
+  width: 100px;
+  height: 40px;
+  border: solid white 3px;
+  align-items: center;
+}
+
+p{
+  margin: 0 4px;
+}
+h2{
+  margin: 0;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.listcard{
+  font-family: roboto;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top: 2vh;
+}
+
+.listc{
+  margin-left: 2vh;
+}
+
+.h4p{
+  font-size: 20px;
+
+}
+
+button{
+  background-color: white;
+  border-radius: 15px;
+  width: 150px;
+  height: 40px;
+  transition: 0.3s;
+  }
+
+  button:hover{
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    transition: 0.3s;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+/*AQUI TERMINA OSFLIPS DE PRODUTO*/
