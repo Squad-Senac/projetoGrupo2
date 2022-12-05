@@ -1,0 +1,18 @@
+.body{
+    background-color:black;
+}
+
+label{
+    color:white;
+}
+
+.intro{
+    text-align: center;
+    color:white;
+}
+.tech{
+    color: white;
+}
+h2{
+    color: orange;
+}

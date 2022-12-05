@@ -47,6 +47,8 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover{
     background-color: darkorange;
+    text-decoration: none;
+    color: white;
 }
 
 nav .menu-btn i{
@@ -138,7 +140,7 @@ html{
 }
 h1{
     text-align: center;
-    color:#17bebb;
+    color:darkorange;
     padding: 10px;
 }
  
@@ -159,7 +161,7 @@ h1{
     transition: all 0.5s ease 0s;
 }
 .our-team:hover .pic{
-    background: #17bebb;
+    background: darkorange;
     border-radius: 50%;
 }
 .pic img{
@@ -176,7 +178,7 @@ h1{
     margin: 0 0 7px 0;
 }
 .our-team .post{
-    color: #17bebb;
+    color: darkorange;
     text-transform: capitalize;
     display: block;
     font-size: 15px;
@@ -207,7 +209,7 @@ h1{
     transition: all 0.5s ease 0s;
 }
 .our-team:hover .pic{
-    background: #17bebb;
+    background: darkorange;
     border-radius: 50%;
 }
 .pic img{
@@ -224,7 +226,7 @@ h1{
     margin: 0 0 7px 0;
 }
 .our-team .post{
-    color: #17bebb;
+    color: black;
     text-transform: capitalize;
     display: block;
     font-size: 15px;
@@ -242,8 +244,8 @@ h1{
 .our-team .social li a{
     border-radius: 50%;
     font-size: 15px;
-    color: #17bebb;
-    border: 1px solid #17bebb;
+    color:darkorange;
+    border: 1px solid darkorange;
     display: block;
     width: 30px;
     height: 30px;
@@ -251,14 +253,14 @@ h1{
     transition: all 0.5s ease 0s;
 }
 .our-team:hover .social li a{
-    background: #17bebb;
+    background:darkorange;
     color: #fff;
 }
 .our-team:hover .pic{
-    background: #17bebb;
+    background: darkorange;
     border-radius: 50%;
 }
 .our-team:hover .social li a{
-    background: #17bebb;
+    background:darkorange;
     color: #fff;
 }

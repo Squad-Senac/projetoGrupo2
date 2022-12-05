@@ -1,0 +1,33 @@
+body{
+    background-image:url(../contents/back.png);
+
+}
+
+.content{
+    text-align: center;
+}
+
+.texto p, h3{
+    color: white;
+}
+.esqueci{
+    text-decoration: none;
+    color: rgb(180, 20, 20);
+    margin-left: 130px;
+}
+
+.logo-login{
+    width:20px;
+}
+
+label{
+    color: rgb(223, 223, 88);
+}
+
+.facebook, .twitter, .google{
+    text-decoration: none;
+}
+
+.entrar{
+    background: gray;
+}
