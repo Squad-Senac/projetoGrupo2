@@ -48,7 +48,7 @@ Aqui estão as tecnologias usadas nesse projeto
 
 * **Rodrigo Galdino** - *Tela de produtos e Slide* - [frontEnd](https://github.com/Rodrigohdkr)
 * **Diego Samim** - *Pagina inicial e footer* - [frontEnd](https://github.com/DiegoSamim)
-* **Jonas Dias** - *Barra de navegação e pagina de equipe* - [frontEnd](hhttps://github.com/Jonasdias02)
+* **Jonas Dias** - *Barra de navegação e pagina de equipe* - [frontEnd](https://github.com/Jonasdias02)
 * **Raphael Felix** - *Pagina de cadastro, login e recuperação de senha* - [frontEnd](https://github.com/felixraphael)
 
 Este projeto está sob a licença da empresa FrontEnders©.
