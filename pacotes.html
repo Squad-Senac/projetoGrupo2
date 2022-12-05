@@ -19,23 +19,27 @@
   <link rel="stylesheet" href="./style/pacotes.css" />
 </head>
 
-<body style="background: black;">
-  <nav class=" navbar fixed-top" style="z-index: 999;">
-      <img class="logo" src="./contents/logo.png">
+<body">
+  <!--Barra Nevagação -->
+  <nav>
+    <img class="logo" src= "./contents/logo.png">
 
-      <div class="menu-btn">
-          <i class="fa fa-bars fa-2x" onclick="menuActive()"></i>
-          
-      </div>
+    <div class="menu-btn">
+        <i class="fa fa-bars fa-2x" onclick="menuActive()"></i>
+        
+    </div>
 
-      <ul>
-          <li> <a href="#" class="active"> Home </a> </li>
-          <li> <a href="#">Login</a> </li>
-          <li> <a href="#">Sobre</a> </li>
-          <li> <a href="#">Serviços</a> </li>
-          <li> <a href="#">Preços</a> </li>
-      </ul>
-  </nav>
+    <ul>
+        <li> <a href="index.html" class="active"> Home </a> </li>
+        <li> <a href="pacotes.html">Serviços</a> </li>
+        <li> <a href="equipe.html">Equipe</a> </li>
+        <li> <a href="formulario.html">Cadastre-se</a> </li>
+        <li><a href="login.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+          </svg></a></li>
+        
+    </ul>
+</nav>
   <script src="./scripts/equipe.js"></script>
   
  <main>   

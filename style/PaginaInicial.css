@@ -199,7 +199,7 @@ nav .menu-btn i{
 #pacotesTitulo{
     font-size: 2em;
     color: var(--corPadrão);
-    margin-top: 50px;
+    margin-top: 40px;
     font-weight: bold;
     text-align: center;
 }
@@ -213,6 +213,7 @@ nav .menu-btn i{
     position: relative;
     cursor: pointer;
     margin: 10px;
+    margin-bottom: 40px;
     
 }
 

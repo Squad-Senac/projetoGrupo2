@@ -15,6 +15,7 @@ nav{
     justify-content: space-between;
     padding: 0 50px 0 100px;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 nav .logo{
@@ -47,8 +48,6 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover{
     background-color: darkorange;
-    text-decoration: none;
-    color: white;
 }
 
 nav .menu-btn i{
@@ -128,3 +127,4 @@ nav .menu-btn i{
     
 }
 /*Barra de navegação acaba aqui*/
+

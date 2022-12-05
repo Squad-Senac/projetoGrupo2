@@ -4,32 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" conteudo="IE=edge">
     <meta name="viewport" conteudo="width=device-width, initial-scale=1.0">
+    <!-- Links CSS e Fontes -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style/PaginaInicial.css">
-    <link rel="stylesheet" href="style/Slider.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-    <title>LibrePress</title>
+    
+    <!--Css Arquivos-->
+    <link rel="stylesheet" href="style/PaginaInicial.css">
+    <link rel="stylesheet" href="style/Slider.css">
+    <title>PainTech</title>
 </head>
 <body>
 
     <!-- Barra de Navegação -->
     <nav>
-        <img class="logo" src= "contents/image.png">
+      <img class="logo" src= "./contents/logo.png">
 
-        <div class="menu-btn">
+      <div class="menu-btn">
           <i class="fa fa-bars fa-2x" onclick="menuActive()"></i>
+          
       </div>
 
       <ul>
           <li> <a href="#" class="active"> Home </a> </li>
-          <li> <a href="#">Sobre</a> </li>
-          <li> <a href="#">Serviços</a> </li>
-          <li> <a href="#">Galeria</a> </li>
-          <li> <a href="#">Preços</a> </li>
-        </ul>
-    </nav>
+          <li> <a href="#ancora">Sobre</a> </li>
+          <li> <a href="pacotes.html">Serviços</a> </li>
+          <li> <a href="formulario.html">Contatos</a> </li>
+          <li> <a href="formulario.html">Cadastre-se</a> </li>
+          <li><a href="login.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+            </svg></a></li>
+          
+      </ul>
+  </nav>
     <!--------------------------------------------------------------------------------------------->
     
     <!-- Video de Background + Texto de Apresentação -->
@@ -48,7 +56,7 @@
     <!--------------------------------------------------------------------------------------------->
 
     <!-- Carrosel de Cards sobre a empresa -->
-    <div class="conteudo-geral js-conteudo-geral">
+    <div id="ancora" class="conteudo-geral js-conteudo-geral">
         <div class="componente-interno-geral">
           <div class="componente">
             <div class="componente-sem-rolagem">
@@ -215,13 +223,13 @@
                  <div class="row">
                     <div class="col-md-6 ">
                        <div class="logo-part">
-                          <h2>LIBREPRESS</h2>
+                          <h2>PAINTECH</h2>
                           <p>R. Dona Isabel, 700 - Bonsucesso, Rio de Janeiro - RJ, 21032-060</p>
                           <p></p>
                        </div>
                     </div>
                     <div class="col-md-6 px-4">
-                       <h6> Sobre a LibrePress</h6>
+                       <h6> Sobre a PainTech</h6>
                        <p>Visando a facilidade, criatividade e o aprendizado simplificado, a LibrePress tem como objetivo que qualquer pessoa entenda a lógica do desenvolvimento de um site </p>
                        <a href="#" class="btn-footer"> Mais informações </a><br>
                        <a href="#" class="btn-footer"> Contato </a>
@@ -236,8 +244,8 @@
                           <div class="col-md-6">
                              <ul>
                                 <li> <a href="#"> Início</a> </li>
-                                <li> <a href="#"> Pacotes</a> </li>
-                                <li> <a href="#"> Nossa equipe</a> </li>
+                                <li> <a href="pacotes.html"> Pacotes</a> </li>
+                                <li> <a href="equipe.html"> Nossa equipe</a> </li>
                                 <li> <a href="#"> Perguntas</a> </li>
                                 <li> <a href="#"> Termos e Condições</a> </li>
                              </ul>
@@ -247,7 +255,7 @@
                                 <li> <a href="#"> Rembolso</a> </li>
                                 <li> <a href="#"> Privacidade</a> </li>
                                 <li> <a href="#"> Cookies </a> </li>
-                                <li> <a href="#"> Perguntas</a> </li>
+                                <li> <a href="formulario.html"> Formulário</a> </li>
                              </ul>
                           </div>
                        </div>

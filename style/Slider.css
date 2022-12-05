@@ -240,10 +240,11 @@ body {
   top: 0;
   width: 100%;
 }
-
 #N2{
   color: black;
-  margin-left: 5px;
+  font-size: 2vw;
+  font-weight: bolder;
+  margin-bottom: 12px;
 }
 .componente-index-back {
   color: #2f3840;
