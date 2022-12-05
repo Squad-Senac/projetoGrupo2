@@ -11,7 +11,8 @@ Aqui estão as tecnologias usadas nesse projeto
 
 * Html5
 * Css3
-* javaScript
+* JavaScript
+* Bootstrap
 
 ## Serviços utilizados
 
@@ -46,9 +47,9 @@ Aqui estão as tecnologias usadas nesse projeto
 
 ## ✒️ Autores
 
-* **Rodrigo Galdino** - *Tela de produtos e Slide* - [frontEnd](https://github.com/Rodrigohdkr)
-* **Diego Samim** - *Pagina inicial e footer* - [frontEnd](https://github.com/DiegoSamim)
-* **Jonas Dias** - *Barra de navegação e pagina de equipe* - [frontEnd](https://github.com/Jonasdias02)
-* **Raphael Felix** - *Pagina de cadastro, login e recuperação de senha* - [frontEnd](https://github.com/felixraphael)
+* **Rodrigo Galdino** - *Tela de produtos e Slide* - [Github](https://github.com/Rodrigohdkr)
+* **Diego Samim** - *Pagina inicial e footer* - [Github](https://github.com/DiegoSamim)
+* **Jonas Dias** - *Barra de navegação e pagina de equipe* - [Github](https://github.com/Jonasdias02)
+* **Raphael Felix** - *Pagina de cadastro, login e recuperação de senha* - [Github](https://github.com/felixraphael)
 
 Este projeto está sob a licença da empresa FrontEnders©.
