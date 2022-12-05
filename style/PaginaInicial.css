@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{ /*variáveis para as cores do site que são alteradas conforme a escola do usuário*/
+    --corPadrão: goldenrod;
+}
+
+body{
+    background-color: #171717;
+    font-family: 'Signika', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Barra de Navegação*/
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+nav .logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover{
+    background-color: var(--corPadrão);
+}
+
+nav .menu-btn i{
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 920px) {
+    nav .menu-btn i{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: var(--corPadrão);
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    nav ul.open{
+        left: 0;
+    }
+    nav ul li{
+        width: 100%;
+        margin: 50px 0;
+    }
+    nav ul li a{
+        font-size: 23px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+    background: none;
+    color: darkorange;
+    }
+}
+
+/*---------------------------------------------------------------------*/
+
+/*Apresentação: Video de Background + texto âncora*/
+
+#apresentação{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 15px;
+    padding-bottom: 40%;
+    position: relative;
+}
+
+
+#videoBG{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 90%;
+    border: 3px solid var(--corPadrão);
+    border-radius: 10px;
+}
+
+#textoApresentação{
+    color: var(--corPadrão);
+    position: absolute;
+    text-align: center;
+    font-size: 1.5vw;
+    overflow-wrap: break-word;
+    width: 40%;
+    top: 20%;
+    padding: 10px;
+}
+
+#textoApresentação h1{
+    font-family: 'Bebas Neue', cursive;
+}
+
+#btnApresentação{
+    color: var(--corPadrão);
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 15px;
+    font-size: 1vw;
+    padding: 2%;
+    background-color: var(--corPadrão);
+    color: white;
+}   
+
+/*-----------------------------------------------------------*/
+
+/*Carrosel apresentando o site* - Slider.css/
+
+/*Pacotes de produtos com breve apresentação*/
+
+#pacotesTitulo{
+    font-size: 2em;
+    color: var(--corPadrão);
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.pacotes{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pacotes .cards{
+    position: relative;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+.pacotes .cards .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+    border: 2px solid var(--corPadrão);
+}
+
+.pacotes .cards .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.pacotes .cards:hover .face.face1{
+    background: var(--corPadrão);
+    transform: translateY(0);
+}
+
+.pacotes .cards .face.face1 .conteudo{
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.pacotes .cards:hover .face.face1 .conteudo{
+    opacity: 1;
+}
+
+.pacotes .cards .face.face1 .conteudo img{
+    max-width: 100px;
+}
+
+.pacotes .cards .face.face1 .conteudo h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.pacotes .cards .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.pacotes .cards:hover .face.face2{
+    transform: translateY(0);
+}
+
+.pacotes .cards .face.face2 .conteudo p{
+    margin: 0;
+    padding: 0;
+}
+
+.pacotes .cards .face.face2 .conteudo a{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.pacotes .cards .face.face2 .conteudo a:hover{
+    background: #333;
+    color: #fff;
+}
+/*-----------------------------------------------------------*/
+
+/*Footer*/
+
+#footer {
+    margin-top: 10px;
+    background: #292929;
+    padding: 50px;
+    color: grey;
+}
+
+#footer p, a {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#footer h2, h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    position: relative;
+    color: var(--corPadrão);
+}
+
+
+.btn-footer {
+    color: grey;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 30px;
+    line-height: 47px;
+}
+
+.btn-footer:hover {    
+    text-decoration: none;      
+}
+
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.social{
+    display: flex;
+}
+
+.social .media {
+    color: grey;
+    margin: 5px;
+    font-size: 22px;
+    padding: 5px;
+    background: var(--corPadrão);
+}
+
+#footer ul {
+    padding-left: 2px;
+}
+#footer ul li {
+    list-style: none;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: grey;
+}
+a:hover {
+    text-decoration: none;
+    color: #f5f5f5;
+}
