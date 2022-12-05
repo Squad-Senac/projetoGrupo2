@@ -291,7 +291,7 @@ body {
 }
 .componente:nth-child(1) .componente-fundo-imagem:before {
   transition-delay: 0s;
-  background-image: url("../includes/código-fonte-e-papel-de-parede-do-desktop-pela-linguagem-programação-com-codi-124708208.jpg");
+  background-image: url("../contents/código-fonte-e-papel-de-parede-do-desktop-pela-linguagem-programação-com-codi-124708208.jpg");
 }
 .componente:nth-child(2) {
   transform: translate3d(105.2083333333%, 0, 0);
