@@ -44,6 +44,9 @@ Aqui estão as tecnologias usadas nesse projeto
 
 ![Post show](https://github.com/Squad-Senac/projetoGrupo2/blob/main/contents/imagensredmi/cadastro.png)
 
+### 7 - Pagina de Login.
+![Post show](https://github.com/Squad-Senac/projetoGrupo2/blob/main/contents/imagensredmi/inicial_4.png)
+
 
 ## ✒️ Autores
 
