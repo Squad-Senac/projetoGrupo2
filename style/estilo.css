@@ -1,5 +1,5 @@
 body{
-    background-image:url(../contents/back.png);
+    background:black;
 }
 
 :root{ /*variáveis para as cores do site que são alteradas conforme a escola do usuário*/
